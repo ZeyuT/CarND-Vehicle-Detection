@@ -23,7 +23,7 @@ YCrCb color space, combined features of color histogram, binned color features a
 [image4]: ./examples/all_windows_positive_detections.png "All windows positive detections"
 [image5]: ./examples/heatmap.jpg "Heat map"
 
-### Taining Data ###
+### Training Data ###
 
 Labeled data set is given by Udacity. Here are links to the labeled data for [vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and [non-vehicle](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) examples.  These example images come from a combination of the [GTI vehicle image database](http://www.gti.ssr.upm.es/data/Vehicle_database.html), the [KITTI vision benchmark suite](http://www.cvlibs.net/datasets/kitti/), and examples extracted from the project video itself.
 
