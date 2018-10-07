@@ -9,7 +9,7 @@ This is my solution to the Vehicle Detection and Tracking Project of the Udacity
 
 YCrCb color space, combined features of color histogram, binned color features and HOGs are used to build a feature vector in my project. The chosen classifier is Linear SVC, which is built by using sklearn tool. A sliding window method is used to search vehicles in each frame or test image.
 
-[Here](./examples/test2.jpg) is an example of output images. All final output images can be seen in the folder "./output_images".
+[Here](./examples/test4.jpg) is an example of output images. All final output images can be seen in the folder "./output_images".
 
 [Here](./test_videos_output/project_video_output.mp4) is the final output video.
 
