@@ -37,6 +37,8 @@ Here is an example of image with cars and an example of image without cars.
 
 Based on multiple trials, I choose to use YCrCb color space, and combined features of color histogram, binned color features and HOGs. Here are details of these features.
 
+| Feature Names              | Values   |
+|--------------------------- | ---------|
 | Color space                | YCrCb    |
 | Number of HOG orientations | 9        | 
 | Channels of HOG            | All      |
