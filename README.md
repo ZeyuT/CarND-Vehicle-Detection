@@ -76,10 +76,9 @@ However, extracting HOG in each window require pretty much computing effect. To 
 
 By calling functions above several times with different window sizes, multiple scales of windows can be used to search on one image.
 Here are all important parameters.
-
-| Window sizes, in pixels                | 128, 96, 64 |
-| Overlapping                            | 75%         | 
-| Range of searching area on y direction | (400, 656)  |
+| Window sizes (in pixels)    | Overlapping | Range of searching area on y direction |
+|---------------------------- | ------------| ---------------------------------------|
+| 128, 96, 64                 | 75%         |(400, 656)                              |
 
 Here are some examples of images during sliding windows. More images during the process can be found in folder "./test_images_output".
 
@@ -97,10 +96,9 @@ Based on hot windows, I add 1 heat to each hot window area on a blank image. The
 When dealing with videos, to filter out transient false positives, all heats are stored during the last 5 frame, and a threshold is used to the sum heat.
 What is more, to filter out false positives with high heat values in small area, the minimum size of output boxes is limited 
 Here are the thresholds. All thresholds are proved to be working well on test images and the given videos.
-
-| Threshold on single image              | 1       |
-| Threshold on videos                    | 7       | 
-| Minimum size of boxes                  | 30 * 30 |
+| Threshold on single image   | Threshold on videos | Minimum size of boxes                  |
+|---------------------------- | --------------------| ---------------------------------------|
+|  1                          | 7                   | 30 * 30                                |
 
 Here is an example of heat map. More images during the process can be found in folder "./test_images_output".
 
